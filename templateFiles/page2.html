@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/staticFiles/main.css">
+        <script src="/staticFiles/script.js"></script>
+    </head>
+    <body>
+      <center>
+        <nav id="header1">
+            <span>
+                <b><center><br>INTERACTIVE SYSTEM FOR GENDER CLASSIFICATION</center></b>
+            </span>
+        </nav>
+        <h2>RESULTS</h2>
+        <p>Gender(Actual):{{g}}</p>
+        <p>Predicted Gender by various algorithms</p>
+        <table>
+          <tr>
+            <th>Model</th>
+            <th>Classified Gender</th>
+
+          </tr>
+
+          <tr>
+            <td>K NEAREST NEIGHBOR</td>
+            <td>{{knn}}</td>
+
+          </tr>
+          <tr>
+            <td>SUPPORT VECTOR MACHINE</td>
+            <td>{{svm}}</td>
+
+          </tr>
+          <tr>
+            <td>DEEP LEARNING</td>
+            <td>{{df}}</td>
+
+          </tr>
+
+        </table>
+        <br><br>
+        <h2 style="color:green;">Success</h2>
+        <br>
+      </center>
+    </body>
+</html>
